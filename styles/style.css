@@ -1,0 +1,27 @@
+#content {
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+    grid-template-rows: repeat(4, 100px);
+    place-items: center;
+}
+
+.bulletContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bullet {
+    border-radius: 50%;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.vl {
+    background-color: black;
+    height: 50px;
+    width: 10px;
+
+}
