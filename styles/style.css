@@ -1,11 +1,15 @@
 * {
     background-color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
+#name {
+    color: violet;
+}
+
 #header {
-    color: white;
     font-size: 20px;
     background-color: rgb(54, 54, 54);
     padding: 20px 15px;
@@ -15,12 +19,56 @@
     background-color: rgb(54, 54, 54);
 }
 
-#content {
+.sectionHeader {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+.contentGrid {
     display: grid;
     grid-template-columns: 200px 200px auto;
-    grid-template-rows: repeat(16, 100px);
     place-items: center;
-    color: white;;
+    color: white;
+    margin-right: 10px;
+}
+
+#earlyLife {
+    grid-template-rows: repeat(6, 100px);
+}
+
+#earlyLifeHeader {
+    background-color: #9b9b9b;
+    color: black;
+}
+
+#military {
+    grid-template-rows: repeat(3, 100px);
+}
+
+#militaryHeader {
+    background-color: rgb(138, 197, 138);
+    color: black;
+}
+
+#afterMilitary {
+    grid-template-rows: repeat(5, 100px);
+}
+
+#experience {
+    grid-template-rows: repeat(2, 100px);
+}
+
+#experienceHeader {
+    background-color: yellow;
+    color: purple;
+}
+
+.contentGrid p {
+    text-align: center;
 }
 
 .sidebar {
