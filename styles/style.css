@@ -18,7 +18,7 @@
 #content {
     display: grid;
     grid-template-columns: 200px 200px auto;
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(16, 100px);
     place-items: center;
     color: white;;
 }
