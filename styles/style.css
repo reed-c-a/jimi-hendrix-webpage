@@ -59,12 +59,30 @@
 }
 
 #experience {
-    grid-template-rows: repeat(2, 100px);
+    grid-template-rows: repeat(6, 100px);
 }
 
 #experienceHeader {
     background-color: yellow;
     color: purple;
+}
+
+#areYouExperienced {
+    grid-template-rows: repeat(3, 100px);
+}
+
+#areYouExperiencedHeader {
+    background-color: yellow;
+    color: purple;
+}
+
+#boldAsLove {
+    grid-template-rows: repeat(3, 100px);
+}
+
+#boldAsLoveHeader {
+    background-color: orange;
+    color: rgb(41, 133, 169);
 }
 
 .contentGrid p {
