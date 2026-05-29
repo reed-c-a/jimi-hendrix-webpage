@@ -94,6 +94,23 @@
     color: rgb(255, 225, 0);
 }
 
+#woodstock {
+    grid-template-rows: repeat(3, 100px);
+}
+
+#woodstockHeader {
+    background-color: white;
+    color: turquoise;
+}
+
+#bandOfGypsys {
+    grid-template-rows: repeat(5, 100px);
+}
+
+#cryOfLove {
+    grid-template-rows: repeat(7, 100px);
+}
+
 .contentGrid p {
     text-align: center;
 }
