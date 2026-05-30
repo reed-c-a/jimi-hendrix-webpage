@@ -58,13 +58,18 @@
     grid-template-rows: repeat(5, 100px);
 }
 
+#afterMilitaryHeader {
+    background-color: white;
+    color: black;
+}
+
 #experience {
     grid-template-rows: repeat(6, 100px);
 }
 
 #experienceHeader {
-    background-color: yellow;
-    color: purple;
+    background-color: purple;
+    color: yellow;
 }
 
 #areYouExperienced {
@@ -81,8 +86,8 @@
 }
 
 #boldAsLoveHeader {
-    background-color: orange;
-    color: rgb(41, 133, 169);
+    background-color: rgb(255, 191, 0);
+    color: rgb(0, 144, 201);
 }
 
 #electricLadyland {
@@ -107,8 +112,18 @@
     grid-template-rows: repeat(5, 100px);
 }
 
+#bandOfGypsysHeader {
+    color: greenyellow;
+    background-color: rgba(129, 33, 33, 0.807);
+}
+
 #cryOfLove {
     grid-template-rows: repeat(7, 100px);
+}
+
+#cryOfLoveHeader {
+    background-color: skyblue;
+    color: rgba(165, 42, 42, 0.628);
 }
 
 .contentGrid p {
